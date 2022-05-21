@@ -50,8 +50,8 @@ ul{
 .footer{
 	background-color: #24262b;
     position: relative;
-    
-margin-top: 100px;
+	margin-top: 300px;
+align-items: baseline;
    clear:both;
 }
 .footer-col{
@@ -62,7 +62,7 @@ margin-top: 100px;
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 80px;
 	font-weight: 500;
 	position: relative;
 }

@@ -25,17 +25,17 @@ h2 { color: aliceblue;
   appearance: none;
   background-color: #FFFFFF;
   border-width: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
   color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: Clarkson,Helvetica,sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0;
   line-height: 1em;
   margin: 0;
-  margin-left: 600px;
+  
   opacity: 1;
   outline: 0;
   padding: 1.5em 2.2em;
@@ -79,4 +79,7 @@ h2 { color: aliceblue;
 .button-48 span {
   z-index: 1;
   position: relative;
+}
+.bcentre{
+  text-align: center;
 }
