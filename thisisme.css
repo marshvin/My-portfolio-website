@@ -1,5 +1,5 @@
 body{
-    background-image: url(pexels-bich-tran-669996.jpg);
+    background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -18,12 +18,12 @@ h2 { color: aliceblue;
   color: rgb(250, 252, 253);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  margin-left: 3cm;
+  margin-left: 5cm;
   
 }
 .round {
 	border-radius: 50%;
-  margin-right: 10cm;
+  margin-right: 5cm;
   width: 20%;
   float: right;
   
@@ -50,7 +50,7 @@ h2 { color: aliceblue;
   
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 1.0em 2.0em;
   position: relative;
   
   text-decoration: none;
@@ -93,5 +93,96 @@ h2 { color: aliceblue;
   position: relative;
 }
 .bcentre{
-  margin-left: 03cm;
+  margin-left: 05cm;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.slide-toggle{
+  display: none;
+}
+
+.slidemenu{
+  font-family: arial, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  margin-left: 5.5cm;
+}
+
+.slidemenu label{
+  width: 25%;
+  text-align: center;
+  display: block;
+  float: left;
+  color: white;
+  opacity: 0.2;
+
+}
+
+.slidemenu label:hover{
+  cursor: pointer;
+  color: rgb(237, 248, 74);
+}
+
+.slidemenu label span{
+  display: block;
+  padding: 10px;    
+}
+
+.slidemenu label .icon{
+  font-size: 20px;
+  border: solid 2px white;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+/*Bar Style*/
+
+.slider{
+  width: 100%;
+  height: 5px;
+  display: block;
+  background: rgb(255, 252, 252);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slider .bar{
+  width: 25%;
+  height: 5px;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/*Animations*/
+.slidemenu label, .slider .bar {
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+/*Toggle*/
+
+.slidemenu .slide-toggle:checked + label{
+  opacity: 1;
+}
+
+
+
+.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
