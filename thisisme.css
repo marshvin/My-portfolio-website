@@ -1,23 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
     background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
-h1 {color: rgb(248, 248, 252);
-   
-    padding: 20px;
-    margin-top: 1%;
-    margin-bottom: 5%;
-    margin-block-end: 5%;
+.logo{
+  color: white;
+  font-size: 3vmin;
 }
-h2 { color: aliceblue;
-    font-style: unset;
-    font-size: 50px;
+.clear{
+  clear: both;
 }
+
+.slide-toggle{
+  display: none;
+}
+
+.slidemenu{
+
+  font-family: arial, sans-serif;
+  width: 50%;
+  margin: 50px auto;
+  overflow: hidden;  
+}
+
+.slidemenu label{
+  width: 25%;
+  text-align: center;
+  display: block;
+  float: left;
+  color: white;
+  
+
+}
+
+.slidemenu label:hover{
+  cursor: pointer;
+  color: rgb(237, 248, 74);
+}
+
+.slidemenu label span{
+  display: block;
+  padding: 5px;    
+}
+
+.slidemenu label .icon{
+  font-size: 20px;
+  border: solid 2px white;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+/*Bar Style*/
+
+.slider{
+  width: 100%;
+  height: 5px;
+  display: block;
+  background: rgb(255, 252, 252);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slider .bar{
+  width: 25%;
+  height: 5px;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/*Animations*/
+.slidemenu label, .slider .bar {
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+/*Toggle*/
+
+.slidemenu .slide-toggle:checked + label{
+  opacity: 1;
+}
+
+
+
+.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+
+
 .profile{
   color: rgb(250, 252, 253);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 4vmin;
   margin-left: 5cm;
   
 }
@@ -30,7 +117,7 @@ h2 { color: aliceblue;
 }
 .title{
   color: #fdfdfd;
-  font-size: 0.7cm;
+  font-size: 3vmin;
 }
 
 .button-48 {
@@ -95,94 +182,8 @@ h2 { color: aliceblue;
 .bcentre{
   margin-left: 05cm;
 }
-*{
-  margin: 0;
-  padding: 0;
+
+
+@media all and (max-width){
+  
 }
-
-.clear{
-  clear: both;
-}
-
-
-.slide-toggle{
-  display: none;
-}
-
-.slidemenu{
-  font-family: arial, sans-serif;
-  max-width: 600px;
-  margin: 50px auto;
-  overflow: hidden;
-  margin-left: 5.5cm;
-}
-
-.slidemenu label{
-  width: 25%;
-  text-align: center;
-  display: block;
-  float: left;
-  color: white;
-  opacity: 0.2;
-
-}
-
-.slidemenu label:hover{
-  cursor: pointer;
-  color: rgb(237, 248, 74);
-}
-
-.slidemenu label span{
-  display: block;
-  padding: 10px;    
-}
-
-.slidemenu label .icon{
-  font-size: 20px;
-  border: solid 2px white;
-  text-align: center;
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin: 0 auto;
-  line-height: 50px;
-  border-radius: 50%;
-}
-
-/*Bar Style*/
-
-.slider{
-  width: 100%;
-  height: 5px;
-  display: block;
-  background: rgb(255, 252, 252);
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-.slider .bar{
-  width: 25%;
-  height: 5px;
-  background: rgb(0, 0, 0);
-  border-radius: 5px;
-}
-
-/*Animations*/
-.slidemenu label, .slider .bar {
-  transition: all 300ms ease-in-out;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-}
-
-/*Toggle*/
-
-.slidemenu .slide-toggle:checked + label{
-  opacity: 1;
-}
-
-
-
-.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
