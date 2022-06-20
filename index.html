@@ -1,58 +1,48 @@
-<html>
-   
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="thisisme.css"> 
+    <script src="https://kit.fontawesome.com/64b6e3e86b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
     <title>vincentmarsh</title>
-<header class="logo">
-    <h1 class="line">PORTFOLIO</h1>
-</header>
-    <body>
-        <div>
-            <nav class="slidemenu">
-                <!-- Item 1 -->
-                <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-                <label for="slide-item-1"><p class="icon">♬</p><span>Home</span></label>
-                
-                <!-- Item 2 -->
-                <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-                <label for="slide-item-2"><p class="icon">★</p><span>About</span></label>
-                
-                <!-- Item 3 -->
-                <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-                <label for="slide-item-3"><p class="icon">✈</p><span>Folio</span></label>
-                
-                <!-- Item 4 -->
-                <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-                <label for="slide-item-4"><p class="icon">✎</p><span>Blog</span></label>
-                
-                <div class="clear"></div>
-                
-                <!-- Bar -->
-                <div class="slider">
-                  <div class="bar"></div>
-                </div>
-                
-              </nav>  
-        </div>
+</head>
+<body>
+    <nav>
+        <label class="logo"> Logo</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <label id="icon">
+           <i class="fas fa-bars"></i> 
+        </label>
+    </nav> 
+    <div class="profile">
+        <img class="round" src="pexels-justin-shaifer-1222271.jpg" alt="user" />
+        <h2>
+        Introducing <br> Vincent Marsh
+        </h2>
         
-        <div class="profile">
-            <img class="round" src="pexels-justin-shaifer-1222271.jpg" alt="user" />
-            <h2>
-            Introducing <br> Vincent Marsh
-            </h2>
-            
         <div class="title">
-                <pa> "The Web as I envisaged it, we have not seen it yet. The future is still so <br> much bigger than the past."
-                    <br>by Tim Berners-Lee
-                </pa> 
+            <pa> "The Web as I envisaged it, we have not seen it yet. The future is still so <br> much bigger than the past."
+                <br>by Tim Berners-Lee
+            </pa> 
         </div>
-        </div>
-    <br>
-<div class="bcentre">
-    <a href="thisisme.html" >
-        <button class="button-48" role="button"><span class="text">Know Me</span></button>
-    </a>
- 
+    </div>
+<br>
 
-    </body>
-    </html>
+</body>
+</html>
