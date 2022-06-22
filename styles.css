@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
-@font-face {
-  font-family: Bebas;
-  src: url('../fonts/BebasKai-Regular.otf');
-}
 * {
 	padding: 0;
 	margin: 0;
@@ -49,10 +44,21 @@
   }
   .h1b{
 color: beige;
+float: right;
+font-family: 'Times New Roman', Times, serif;
+margin-right: 03.5cm;
+font-size: 2.5vmin;
   }
   .h1c{
 	color: #000;
-	text-align: center;
+
+  }
+  .aboutme{
+	margin-top: .5cm;
+	
+  }
+  .languages{
+	color: #e2dbda;
   }
   .get-in-touch {
 	max-width: 800px;
