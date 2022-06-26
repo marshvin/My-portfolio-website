@@ -9,16 +9,13 @@
   body {
 	width: 100%;
 	height: 100%;
-	color: #fff;
+	color: #000;
 	background-color: #000;
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	font-weight: 700;
+
   }
   
 .wrapper {
-	background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
-	background-size: cover;
-    background-repeat: no-repeat;
+  	background-color: white;
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -38,16 +35,14 @@
   .info p {
 	margin-bottom: 1rem;
   }
-  .h1a{
-	color: aliceblue;
+.h1a{
+	color: 000;
 	text-align: center;
   }
   .h1b{
-color: beige;
+color: 000;
 float: right;
-font-family: 'Times New Roman', Times, serif;
-margin-right: 03.5cm;
-font-size: 2.5vmin;
+margin-right: 3cm;
   }
   .h1c{
 	color: #000;
@@ -57,8 +52,18 @@ font-size: 2.5vmin;
 	margin-top: .5cm;
 	
   }
+
   .languages{
-	color: #e2dbda;
+	color: 000;
+  }
+  .img3{
+	margin-left: 1.0cm ;
+  }
+  .work{
+	background-color:  000;
+	height: 120vh;
+	color: white;
+	
   }
   .get-in-touch {
 	max-width: 800px;
