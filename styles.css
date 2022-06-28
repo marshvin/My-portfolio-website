@@ -16,7 +16,7 @@
   
 .wrapper {
   	background-color: white;
-	height: 100vh;
+	height: 150vh;
 	overflow-x: hidden;
 	overflow-y: auto;
 
@@ -42,7 +42,7 @@
   .h1b{
 color: 000;
 float: right;
-margin-right: 3cm;
+
   }
   .h1c{
 	color: #000;
@@ -50,11 +50,19 @@ margin-right: 3cm;
   }
   .aboutme{
 	margin-top: .5cm;
+	font-size: 20px;
 	
   }
 
   .languages{
 	color: 000;
+	font-weight: bolder;
+	font-size: 30px;
+  }
+  .imglan{
+	width: 500px;
+	margin-right: 1.0cm ;
+	float: right;
   }
   .img3{
 	margin-left: 1.0cm ;
@@ -134,5 +142,17 @@ margin-right: 3cm;
 	border: none;
 	width:200px;
 	cursor: pointer;
+  }
+  @media (max-width: 1048px){
+	.wrapper{
+		height: 90vh;
+	}
+	.work{
+		height: 70vh;
+	}
+	.info{
+		height: 70vh;
+	}
+
   }
   
