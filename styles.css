@@ -146,6 +146,7 @@ float: right;
   @media (max-width: 1048px){
 	.wrapper{
 		height: 90vh;
+	
 	}
 	.work{
 		height: 70vh;
@@ -153,6 +154,11 @@ float: right;
 	.info{
 		height: 70vh;
 	}
-
+	.h1b{
+		float: none;
+	}
+	.imglan{
+		float: none;
+	}
   }
   
