@@ -155,7 +155,7 @@ float: right;
 		height: 70vh;
 	}
 	.h1b{
-		float: none;
+		float: none !important;
 	}
 	.imglan{
 		float: none;
