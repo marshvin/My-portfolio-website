@@ -159,6 +159,16 @@ float: right;
 	}
 	.imglan{
 		float: none;
+		width: 800px;
 	}
+	.aboutme{
+		float: none;
+		font-size: 15px;
+	}
+	.img3{
+	width: 800px;
+
+	}
+	
   }
   
