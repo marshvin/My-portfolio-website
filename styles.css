@@ -74,6 +74,9 @@ float: right;
 	color: white;
 	
   }
+  .cssicon{
+	width: 80px;
+  }
   .get-in-touch {
 	max-width: 800px;
 	margin: 50px auto;
