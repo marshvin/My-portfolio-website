@@ -76,6 +76,10 @@ float: right;
   }
   .cssicon{
 	width: 80px;
+	align-items: stretch;
+  }
+  .jsicon{
+	width: 90px;
   }
   .get-in-touch {
 	max-width: 800px;
