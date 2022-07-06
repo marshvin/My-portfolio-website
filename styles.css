@@ -386,7 +386,7 @@ float: right;
   @media (max-width: 1048px){
 	.wrapper{
 		height: 90vh;
-		background: white !important ;
+		background-color: white !important ;
 	
 	}
 	.work{
@@ -402,6 +402,9 @@ float: right;
 	.imglan{
 		float: none;
 		width: 800px;
+	}
+	.languages{
+		font-size: 50px;
 	}
 	.aboutme{
 		float: none;
