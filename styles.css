@@ -81,7 +81,7 @@ float: right;
   .project1 {
 	height: 420px;
 	width: 654px;
-	margin-left: 1cm;
+	margin-left: 350px;
 	border-radius: 7px 7px 7px 7px;
 	
 	-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -116,7 +116,7 @@ float: right;
 	margin: 0 0 0 38px;
 	padding-top: 52px;
 	font-size: 34px;
-	color: #474747;
+	color: black;
   }
   
   .product-text h1,
@@ -130,7 +130,7 @@ float: right;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #d2d2d2;
+	color: goldenrod;
 	letter-spacing: 0.2em;
   }
   
@@ -198,7 +198,7 @@ float: right;
   .project2 {
 	height: 420px;
 	width: 654px;
-	margin-left: 1cm;
+	margin-left: 350px;
 	border-radius: 7px 7px 7px 7px;
 	margin-top: 01cm;
 	-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -247,7 +247,7 @@ float: right;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #d2d2d2;
+	color: goldenrod;
 	letter-spacing: 0.2em;
   }
   
