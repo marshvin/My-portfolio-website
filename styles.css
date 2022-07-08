@@ -73,6 +73,7 @@ font-size: 3vmin ;
   }
   .img3{
 	margin-left: 1.0cm ;
+	width: 100px;
   }
  
   .cssicon{
@@ -407,7 +408,10 @@ font-size: 3vmin ;
 		float: none !important;
 		font-size: 50px;
 	}
-
+	.img3{
+		align-items: center;
+		width: 100px;
+	  }
 	.languages{
 		font-size: 50px;
 	}
