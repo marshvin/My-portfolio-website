@@ -13,6 +13,9 @@ body{
     height: calc(120vh - 80px);
     
 }
+.js{
+  color: white;
+}
 nav{
   height: 80px;
   width: 100%;
