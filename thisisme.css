@@ -23,9 +23,11 @@ nav{
   text-decoration: none;
   
 }
-.logo{
-  height: 250px;
- width: 250px;
+label.logo{
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0 100px;
 }
 nav ul{
   color: #fdfdfd;
@@ -148,9 +150,6 @@ nav #icon{
     display: block;
     margin: 50px 0;
     line-height: 30px;
-  }
-  .round{
-    margin-right:15cm ;
   }
   nav a{
     font-size: 20px;
