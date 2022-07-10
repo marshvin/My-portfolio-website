@@ -1,3 +1,4 @@
 # My-portfolio-website
 This explains a lot about my career journey.
-You can view it here 
+It is already deployed and hosted.
+You can view it here -https://one-page-website-git-main-marshvin.vercel.app/
